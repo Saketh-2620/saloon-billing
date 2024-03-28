@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Saloon Billing App",
+    "slug": "saloon-billing-app",
+    "version": "1.0.1",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.saloonelitedev.saloonbillingapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "440556fc-2ade-46e3-9c2d-f11129ea3333"
+      }
+    }
+  }
+}
